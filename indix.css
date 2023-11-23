@@ -7,6 +7,8 @@ body {
 
 }
 
+
+
 @font-face {
     font-family: 'Foundation-Logo';
     src: url(FDL.ttf);
@@ -444,7 +446,7 @@ a:hover {
 }
 
 .sikas {
-    font-family: 'Kanit', sans-serif;
+
     font-size: larger;
 }
 
@@ -486,4 +488,13 @@ audio {
     100% {
         filter: hue-rotate(360deg);
     }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Foundation-Logo';
+    src: url(FDL.ttf);
 }
